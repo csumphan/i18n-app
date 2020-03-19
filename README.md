@@ -11,7 +11,7 @@ The example app is a logging/user analytic dashboard called BugCatcher. The dash
 
 Cloning and running this repo will display the application on `localhost:8080`
 
-The next few sections of the introduction will go over what and how I implemented each part of the assignment. For example, babel/webpack setup and testing setup.
+The next few sections of the introduction will go over what and how I implemented each part of the assignment. For example, babel/webpack setup.
 
 ### React Project Setup
 
