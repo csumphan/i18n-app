@@ -13,6 +13,8 @@ Cloning and running this repo will display the application on `localhost:8080`
 
 The next few sections of the introduction will go over what and how I implemented each part of the assignment. For example, babel/webpack setup.
 
+Also I used Google Translate for the translations, so I can't promise that they are correct!
+
 ### React Project Setup
 
 I decided to create the React project from scratch, since many of the boilerplates I found had too many unneeded dependencies.
@@ -75,4 +77,6 @@ Command         | Description
 `yarn start`    | Start application
 `yarn build`    | Create production build
 
+## Retro
 
+For this project, I decided against using any prebuilt i18n library such as `react-i18next` and rather just use React's Context API to handle passing the translation object. Mainly, because the i18n library already does so much out of the box. There is a few drawbacks in this decision in production environment, but it doesn't affect this application as much due to the application's smaller size. For example, `react-i18next` splits up translations to multiple files and only use the language file that is needed. My application loads the entire translation object on initialization.
