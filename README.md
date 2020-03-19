@@ -4,6 +4,8 @@ i18n-app
 
 A dashboard for user and web application analytics.
 
+![Screenshot_8](https://user-images.githubusercontent.com/19628690/77028408-e4347080-6955-11ea-83b2-423d54c645cd.png)
+
 ## Introduction
 The example app is a logging/user analytic dashboard called BugCatcher. The dashboard list a series of fake metrics to emulate what an actual analytic tool may show. Use the dropdown on the top right of the application to switch languages.
 
