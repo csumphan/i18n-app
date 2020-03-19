@@ -79,4 +79,6 @@ Command         | Description
 
 ## Retro
 
-For this project, I decided against using any prebuilt i18n library such as `react-i18next` and rather just use React's Context API to handle passing the translation object. Mainly, because the i18n library already does so much out of the box. There is a few drawbacks in this decision in production environment, but it doesn't affect this application as much due to the application's smaller size. For example, `react-i18next` splits up translations to multiple files and only use the language file that is needed. My application loads the entire translation object on initialization.
+For this project, I decided against using any prebuilt i18n library such as `react-i18next` and rather just use React's Context API to handle passing the translation object. Mainly, because the i18n library already does so much out of the box. 
+There is a few drawbacks in this decision in production environment, but it doesn't affect this application as much due to the application's smaller size. For example, `react-i18next` splits up translations to multiple files and only use the language file that is needed. My application loads the entire translation object on initialization. 
+The context api is perfect for handling i18n as it allows a way to pass the translations to the entire component tree, rather than prop drilling the translation down through component that won't even need the translations.
