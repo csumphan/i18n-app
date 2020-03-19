@@ -24,7 +24,7 @@ export const translations = {
     topSearchTerms: 'Términos de búsqueda principales',
     signUpCount: 'Registrarse cuenta por tiempo',
     statusCodeCount: 'Código de estado de API por centro de datos',
-    userAnalysis: 'Analyse des utilisateurs pour votre application Web',
+    userAnalysis: 'Análisis de usuario para su aplicación web',
     asia: 'Asia',
     northAmerica: 'Norteamérica',
   },
